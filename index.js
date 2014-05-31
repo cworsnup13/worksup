@@ -3,7 +3,7 @@ var http = require('http');
 
 var api_router = function(url_entry, res) {
   console.log(url_entry)
-    fs.readFile('./api_index.html', function (err, api_html){
+    fs.readFile('./event.xml', function (err, api_html){
       if (err) {
         throw err;
       }
